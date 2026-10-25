@@ -1,0 +1,21 @@
+Source: pedometerhomewidget
+Section: user/desktop
+Priority: optional
+Maintainer: Sebastian Matkovich <sebastian.matkovich@gmail.com>
+Build-Depends: debhelper-compat (= 12), pkg-config, libglib2.0-dev, libgtk2.0-dev,
+ libhildon1-dev, libhildondesktop1-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/smatkovi/pedometerhomewidget
+Vcs-Git: https://github.com/smatkovi/pedometerhomewidget.git
+
+Package: pedometerhomewidget
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Pedometer home widget on a hardware step counter
+ Steps, distance and calories for today and for the week, the last seven
+ days or all time, a daily goal and a seven-day chart, on the home screen
+ of Maemo Leste. A port of Andrei Mirestean's Pedometer Home Widget for
+ Maemo 5 that reads a hardware step counter instead of the accelerometer:
+ the D-Bus service org.pro1x.Steps (pro1x-steps on the F(x)tec Pro1X). It
+ only listens while it is visible, so it costs nothing in the pocket.
+XB-Maemo-Display-Name: Pedometer

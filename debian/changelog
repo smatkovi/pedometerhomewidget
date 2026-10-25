@@ -1,0 +1,7 @@
+pedometerhomewidget (0.4.0) unstable; urgency=medium
+
+  * Maemo Leste port of Pedometer Home Widget 0.3-4, as a C hildon-home
+    plugin on a hardware step counter (D-Bus org.pro1x.Steps) instead of
+    the accelerometer.
+
+ -- Sebastian Matkovich <sebastian.matkovich@gmail.com>  Sun, 25 Oct 2026 11:30:00 +0100
